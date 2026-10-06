@@ -1,0 +1,43 @@
+const translations={
+en:{
+'hero.eyebrow':'WELCOME TO THE CHAOS','hero.hey':"HEY, I'M",'hero.name':'NASSER.','hero.meta':'19 y/o • Casablanca, Morocco','hero.sub':'Just a guy with big dreams, chaotic thoughts, and probably a coffee in his hand.','hero.note':"That's me. Unfortunately.",'hero.arrow':'probably overthinking',
+'about.title':'OKAY... BUT WHO AM I?','labels.name':'Name','labels.age':'Age','labels.location':'Location','labels.status':'Current status','about.name':'Nasser','about.age':'19','about.location':'Casablanca, Morocco','about.status':'Still figuring things out™','about.note':"I overthink things<br>that probably didn't<br>need thinking.",
+'work.title':"WHAT AM I ACTUALLY DOING?",'work.student':'STUDENT','work.studentJoke':'Trying to understand life... and university at the same time.','work.freelance':'FREELANCER','work.digital':'Freelance / Digital work','work.freelanceJoke':'Small projects. Big dreams.','work.dev':'DIGITAL DEVELOPMENT','work.devJoke':'I break things, Google the solution, then pretend I knew it.','work.brand':'BRAND / CREATIVE','work.brandJoke':'Ideas → design → something hopefully cool.',
+'story.title':"WHAT'S GOING ON WITH MY LIFE?",'story.t1':'Studying','story.t2':'Freelancing','story.t3':'Learning Programming','story.t4':'Building Things','story.t5':'Trying Not To Lose My Mind','story.quote':"I'm learning programming and trying to build cool things.",'story.copy':"I'm still figuring out what I'm doing with my life, but at least the journey is interesting.",
+'loves.title':'MY OBSESSIONS','loves.music':'Music','loves.musicText':'It hits different at 2 AM.','loves.coffee':'Coffee','loves.coffeeText':'Necessary for survival.','loves.sport':'Sport','loves.sportText':"Trying to convince my body we're athletic.",'loves.travel':'Travel','loves.travelText':'New places, new stories.','loves.food':'Food','loves.foodText':'Good food = instant happiness.','loves.movies':'Movies','loves.moviesText':'One movie before sleeping.','loves.coding':'Coding','loves.codingText':'Build. Break. Google. Repeat.',
+'facts.title':'RANDOM FACTS NOBODY ASKED FOR','facts.1':'I spend way too much time scrolling Pinterest.','facts.2':'I watch anime.','facts.3':'I play Rust Mobile.','facts.4':'I overthink almost everything.','facts.5':'I can turn “one episode” into an entire night.','facts.6':'I sometimes have 100 ideas and finish approximately... 3.','facts.7':'Coffee somehow makes everything feel more manageable.','facts.bubble1':'Just 5 more minutes...','facts.bubble2':"It's 3 AM.",
+'goals.title':'THE MASTER PLAN™','goals.1':'Make money','goals.2':'Become famous','goals.3':'Make real friends','goals.4':'Build cool things','goals.5':'Keep learning','goals.6':'Travel and experience more','goals.7':"Build something I'm genuinely proud of",'goals.8':'Become a better version of myself','goals.step1':"Figure out what I'm doing.",'goals.step2':'Pretend I have a plan.','goals.step3':'Somehow make it work.',
+'philosophy.label':'A NOTE TO SELF','philosophy.quote':'Not perfect.<br>Not completely figured out.<br>But moving forward.','philosophy.end':"Maybe that's enough for now.",
+'future.title':'WHERE AM I GOING?','future.s1':'More skills','future.s2':'More projects','future.s3':'More freedom','future.s4':'More experiences','future.honestly':"Honestly... we'll see.",
+'final.title':'THANKS FOR SCROLLING!','final.copy':"You just spent a few minutes looking at a stranger's life on a chalkboard.",'final.respect':'Honestly... respect.','final.note':"I'm still figuring it out.<br>But I'm enjoying the journey.",'final.wave':'bye 👋','footer':'Drawn with chalk. Built with curiosity.'
+},
+ar:{
+'hero.eyebrow':'مرحبا بكم فالفوضى','hero.hey':'آهلا، أنا','hero.name':'ناصر.','hero.meta':'19 عام • الدار البيضاء، المغرب','hero.sub':'غير واحد الشاب عندو أحلام كبار، أفكار كتجري بزاف، وغالباً قهوة فإيدو.','hero.note':'آه، هادا أنا. للأسف.','hero.arrow':'غالباً كنخمم بزاف',
+'about.title':'واخا... ولكن شكون أنا؟','labels.name':'الاسم','labels.age':'العمر','labels.location':'المكان','labels.status':'الحالة دابا','about.name':'ناصر','about.age':'19','about.location':'الدار البيضاء، المغرب','about.status':'مازال كنحاول نفهم الأمور™','about.note':'كنخمم فحوايج<br>غالباً ما كانوش<br>محتاجين تفكير.',
+'work.title':'شنو كندير بالضبط؟','work.student':'طالب','work.studentJoke':'كنحاول نفهم الحياة... والجامعة ف نفس الوقت.','work.freelance':'فريلانسر','work.digital':'خدمة حرة / ديجيتال','work.freelanceJoke':'مشاريع صغار. أحلام كبار.','work.dev':'التطوير الرقمي','work.devJoke':'كنخربق شي حاجة، كنقلب على الحل فـ Google، ومن بعد كنمثل باللي كنت عارف.','work.brand':'براند / إبداع','work.brandJoke':'أفكار ← ديزاين ← شي حاجة إن شاء الله زوينة.',
+'story.title':'شنو واقع فحياتي؟','story.t1':'قراية','story.t2':'فريلانس','story.t3':'تعلم البرمجة','story.t4':'نبني حوايج','story.t5':'كنحاول ما نفقدش عقلي','story.quote':'كنتعلم البرمجة وكنحاول نبني حوايج زوينة.','story.copy':'مازال كنحاول نفهم شنو كندير فحياتي، ولكن على الأقل الرحلة ممتعة.',
+'loves.title':'الحوايج اللي مهووس بيهم','loves.music':'الموسيقى','loves.musicText':'كتحس بها بطريقة أخرى مع جوج ديال الليل.','loves.coffee':'القهوة','loves.coffeeText':'ضرورية للبقاء.','loves.sport':'الرياضة','loves.sportText':'كنحاول نقنع جسمي باللي حنا رياضيين.','loves.travel':'السفر','loves.travelText':'بلايص جداد، قصص جداد.','loves.food':'الماكلة','loves.foodText':'الماكلة الزوينة = السعادة الفورية.','loves.movies':'الأفلام','loves.moviesText':'غير فيلم واحد قبل ما نعس.','loves.coding':'البرمجة','loves.codingText':'نبني. نخربق. نقلب فـ Google. نعاود.',
+'facts.title':'معلومات عشوائية ما سَوّل عليها حد','facts.1':'كنضيع وقت بزاف فـ Pinterest.','facts.2':'كنشوف الأنمي.','facts.3':'كنلعب Rust Mobile.','facts.4':'كنخمم فكلشي تقريباً بزاف.','facts.5':'نقدر نحول “حلقة وحدة” لليلة كاملة.','facts.6':'مرات كيكونو عندي 100 فكرة وكنكمل تقريباً... 3.','facts.7':'القهوة بطريقة ما كتخلي كلشي يبان أسهل.','facts.bubble1':'غير 5 دقايق خرين...','facts.bubble2':'راه ولات 3 دالصباح.',
+'goals.title':'الخطة الأسطورية™','goals.1':'ندير الفلوس','goals.2':'نولي مشهور','goals.3':'ندير صحاب بصح','goals.4':'نبني حوايج زوينة','goals.5':'نبقى نتعلم','goals.6':'نسافر ونعيش تجارب كثر','goals.7':'نبني شي حاجة نفتخر بها بصح','goals.8':'نولي نسخة حسن من راسي','goals.step1':'نفهم شنو كندير.','goals.step2':'نمثل باللي عندي خطة.','goals.step3':'وبطريقة ما... نخليها تخدم.',
+'philosophy.label':'ملاحظة لراسي','philosophy.quote':'ماشي كامل.<br>مازال ما فاهمش كلشي.<br>ولكن كنمشي للقدّام.','philosophy.end':'يمكن هاد الشي كافي دابا.',
+'future.title':'لفين غادي؟','future.s1':'مهارات كثر','future.s2':'مشاريع كثر','future.s3':'حرية كثر','future.s4':'تجارب كثر','future.honestly':'بصراحة... الله أعلم.',
+'final.title':'شكراً على السكرول!','final.copy':'دابا دوزتي شوية ديال الوقت كتفرج فحياة واحد ما كتعرفوش مرسومة فالسبورة.','final.respect':'بصراحة... تحية ليك.','final.note':'مازال كنحاول نفهمها.<br>ولكن مستمتع بالرحلة.','final.wave':'سلام 👋','footer':'مرسومة بالطباشير. مبنية بالفضول.'
+}};
+const tips={en:["My most stable relationship.","Works on my machine™.","I was supposed to work.","One more episode. Obviously."],ar:["أكثر علاقة مستقرة فحياتي.","كتخدم غير عندي™.","كان خاصني نخدم أصلاً.","غير حلقة وحدة أخرى. بطبيعة الحال."]};
+const html=document.documentElement;
+const saved=localStorage.getItem('preferredLanguage');
+const browserArabic=(navigator.language||'').toLowerCase().startsWith('ar');
+let current=saved||(browserArabic?'ar':'en');
+function setLanguage(lang){
+ const y=window.scrollY; current=lang; localStorage.setItem('preferredLanguage',lang);
+ html.lang=lang; html.dir=lang==='ar'?'rtl':'ltr';
+ document.querySelectorAll('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key]!==undefined)el.innerHTML=translations[lang][key]});
+ document.querySelectorAll('.lang').forEach(btn=>{btn.classList.toggle('active',btn.dataset.lang===lang);btn.setAttribute('aria-pressed',btn.dataset.lang===lang?'true':'false')});
+ document.querySelector('.language-switcher').setAttribute('aria-label',lang==='ar'?'اختيار اللغة':'Language selector');
+ document.querySelectorAll('[data-tip]').forEach((el,i)=>el.dataset.tip=tips[lang][i%tips[lang].length]);
+ requestAnimationFrame(()=>window.scrollTo({top:y,behavior:'instant'}));
+}
+document.querySelectorAll('.lang').forEach(btn=>btn.addEventListener('click',()=>setLanguage(btn.dataset.lang)));
+const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.setProperty('--rot',(i%3-1)*.6+'deg');observer.observe(el)});
+setLanguage(current);
