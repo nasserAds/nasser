@@ -41,3 +41,13 @@ document.querySelectorAll('.lang').forEach(btn=>btn.addEventListener('click',()=
 const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.12});
 document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.setProperty('--rot',(i%3-1)*.6+'deg');observer.observe(el)});
 setLanguage(current);
+const progress=document.querySelector('.scroll-progress span');
+const cursor=document.querySelector('.chalk-cursor');
+function updateProgress(){const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?(window.scrollY/max)*100:0)+'%';}
+window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+if(window.matchMedia('(pointer:fine)').matches){window.addEventListener('pointermove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px';cursor.style.opacity='.55'});}
+const secret=document.querySelector('.secret-overlay'),secretButton=document.querySelector('.secret-note'),secretClose=document.querySelector('.secret-close');
+secretButton?.addEventListener('click',()=>{secret.classList.add('open');secret.setAttribute('aria-hidden','false');secretClose.focus();});
+secretClose?.addEventListener('click',()=>{secret.classList.remove('open');secret.setAttribute('aria-hidden','true');secretButton.focus();});
+secret?.addEventListener('click',e=>{if(e.target===secret){secretClose.click();}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&secret.classList.contains('open'))secretClose.click();});
