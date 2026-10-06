@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="margin-note margin-note-a" aria-hidden="true">← don’t forget why you started</div>
+  <div class="margin-note margin-note-b" aria-hidden="true">brain.exe is running...</div>
+  <div class="chalk-cursor" aria-hidden="true"></div>
   <div class="chalk-dust" aria-hidden="true"></div>
   <div class="language-switcher" aria-label="Language selector">
     <span class="globe">🌐</span>
@@ -26,6 +30,7 @@
         <p class="eyebrow" data-i18n="hero.eyebrow">WELCOME TO THE CHAOS</p>
         <h1><span data-i18n="hero.hey">HEY, I'M</span><br><span class="underlined" data-i18n="hero.name">NASSER.</span></h1>
         <p class="meta" data-i18n="hero.meta">19 y/o • Casablanca, Morocco</p>
+        <div class="hero-stamp" aria-hidden="true"><span>19</span><small>YEARS<br>OF<br>EXPERIMENTS</small></div>
         <p class="hero-sub" data-i18n="hero.sub">Just a guy with big dreams, chaotic thoughts, and probably a coffee in his hand.</p>
         <p class="tiny-note" data-i18n="hero.note">That's me. Unfortunately.</p>
       </div>
@@ -66,6 +71,7 @@
       <div class="arrow arrow-one">↗ <span data-i18n="hero.arrow">probably overthinking</span></div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>KEEP SCROLLING</span><i></i><span>✦</span></div>
     <section class="section about">
       <div class="section-heading reveal"><span class="number">01</span><h2 data-i18n="about.title">OKAY... BUT WHO AM I?</h2></div>
       <div class="about-grid">
@@ -87,6 +93,7 @@
       </div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>THE PLOT THICKENS</span><i></i><span>✦</span></div>
     <section class="section work">
       <div class="section-heading reveal"><span class="number">02</span><h2 data-i18n="work.title">WHAT AM I ACTUALLY DOING?</h2></div>
       <div class="work-grid">
@@ -97,6 +104,7 @@
       </div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>LORE DROP</span><i></i><span>✦</span></div>
     <section class="section story">
       <div class="section-heading reveal"><span class="number">03</span><h2 data-i18n="story.title">WHAT'S GOING ON WITH MY LIFE?</h2></div>
       <div class="timeline reveal">
@@ -108,6 +116,7 @@
       <div class="scribble thought">hmmm... <span>→</span> maybe it'll work</div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>VERY IMPORTANT RESEARCH</span><i></i><span>✦</span></div>
     <section class="section loves">
       <div class="section-heading reveal"><span class="number">04</span><h2 data-i18n="loves.title">MY OBSESSIONS</h2></div>
       <div class="love-grid">
@@ -121,6 +130,7 @@
       </div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>UNNECESSARY INFORMATION</span><i></i><span>✦</span></div>
     <section class="section facts">
       <div class="section-heading reveal"><span class="number">05</span><h2 data-i18n="facts.title">RANDOM FACTS NOBODY ASKED FOR</h2></div>
       <div class="facts-board">
@@ -141,6 +151,7 @@
       </div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>THE MASTER PLAN</span><i></i><span>✦</span></div>
     <section class="section goals">
       <div class="section-heading reveal"><span class="number">06</span><h2 data-i18n="goals.title">THE MASTER PLAN™</h2></div>
       <div class="goals-layout">
@@ -164,6 +175,7 @@
       </div>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>FAST FORWARD</span><i></i><span>✦</span></div>
     <section class="section future">
       <div class="section-heading reveal"><span class="number">07</span><h2 data-i18n="future.title">WHERE AM I GOING?</h2></div>
       <div class="road reveal">
@@ -177,6 +189,7 @@
       <p class="honestly reveal" data-i18n="future.honestly">Honestly... we'll see.</p>
     </section>
 
+    <div class="chapter-divider" aria-hidden="true"><span>✦</span><i></i><span>END OF DOCUMENT</span><i></i><span>✦</span></div>
     <section class="final section">
       <div class="final-stars">✦　✧　✦</div>
       <h2 class="reveal" data-i18n="final.title">THANKS FOR SCROLLING!</h2>
@@ -184,9 +197,11 @@
       <p class="respect reveal" data-i18n="final.respect">Honestly... respect.</p>
       <p class="final-note reveal" data-i18n="final.note">I'm still figuring it out.<br>But I'm enjoying the journey.</p>
       <p class="signature reveal">— Nasser</p>
+      <button class="secret-note" type="button" aria-label="Reveal a secret note">psst...</button>
       <div class="wave reveal">☻<br><span data-i18n="final.wave">bye 👋</span></div>
     </section>
   </main>
+  <div class="secret-overlay" aria-hidden="true"><div class="secret-paper"><button class="secret-close" type="button" aria-label="Close">×</button><p>you made it this far.</p><strong>that probably means you’re cool.</strong><small>— definitely not the website talking</small></div></div>
   <footer><span>© 2026 Nasser</span><span data-i18n="footer">Drawn with chalk. Built with curiosity.</span></footer>
   <script src="app.js"></script>
 </body>
